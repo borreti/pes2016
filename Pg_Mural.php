@@ -10,7 +10,7 @@
 	
 	<body>
 		<?php
-			include 'Class_Controle.php';
+			include 'BDManager.php';
 			
 			$b = new BDManager();
 			$ListaClubes = $b->CarregarClubes();
