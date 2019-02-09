@@ -1,0 +1,106 @@
+<style>
+
+.navbar{
+	width: auto;
+	background: skyblue;
+}
+
+.no-decoration{
+	list-style: none;
+	display: inline-block;
+}
+
+.box-team{
+	line-height:70px;
+	text-align:center;
+	border:1px solid black;
+	border-radius: 3px;
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+	transition: all 200ms ease-out;
+	margin: 12px;
+	display: inline-block;
+}
+
+.box-game{
+	line-height:70px;
+	text-align:center;
+	border:2px solid #dd;
+	border-radius: 3px;
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+	transition: all 200ms ease-out;
+	margin: 13px;
+	display: block;
+	background: #e0dedb;
+	}
+
+.info-team{
+	border: 2px solid white;
+	border-radius: 3px;
+	display: inline-block;
+	width: 350px;
+	height: auto;
+}
+
+.sub-info-partida{
+	display: inline-block;
+	width: 300px;
+	height: auto;
+}
+
+.input-reg-partida{
+	border-radius: 15px;
+	transition-duration: 0.4s;
+	background-color: #000080;
+	color: white;
+	font-family: "Arial", sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.input-reg-partida:active {
+	transform: translateY(4px)
+}
+
+.select-nacionalidade, .input-nome-clube {
+	width: 150px;
+	border: 2px solid white;
+	border-style: ridge;
+	border-radius: 5px;
+}
+
+.select-nacionalidade:hover, .input-nome-clube:hover {
+	border: 2px solid #000080;
+	box-shadow: 2px 2px 2px #DCDCDC
+}
+
+.label-registro-clube {
+	background-color: #000080;
+	font-family: "Arial", sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+	color: white;
+	border-radius: 5px;
+}
+
+.lines{
+	display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+	color:#000080;
+}
+
+.titulo-reg-clube{
+	font-family: 'Bungee', cursive;
+	font-weight: bold;
+}
+
+.div-campeoes{
+	background-color: #DCDCDC;
+}
+
+
+</style>
